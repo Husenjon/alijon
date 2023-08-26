@@ -13,7 +13,7 @@ func HttpRequset(method, url string, jsonBody any) error {
 		return err
 	}
 	req.Header = http.Header{
-		"Authorization": {"Basic d2ViOnV6aW5rYXMx"},
+		"Authorization": {"Basic hhgSdnV6aW5rYXMx"},
 		"Content-Type":  {"application/json; charset=utf-8"},
 	}
 	res, err := client.Do(req)
